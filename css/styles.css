@@ -1,0 +1,127 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Hover Function for Button Dark */
+#pricing-section .btn-dark:hover {
+    background-color: #EF8172;
+}
+
+#title-btns .btn-dark:hover, #cta .btn-dark:hover {
+    background-color: #FF4C68;
+}
+
+
+/* Background Color  */
+
+#title, #cta {
+    background-color: #FF4C68;    
+}
+
+#testimonials {
+    background-color: #EF8172;
+}
+
+/* title section */
+
+/* title navbar*/
+
+a.navbar-brand {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a.nav-link {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+/* title content  */
+
+.headings {
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: #FFF;
+}
+
+img.title-img {
+    width: 21%;
+    transform-origin: bottom left;
+    transform: rotate(10deg);
+    position: absolute;
+    right: 25%;
+    top: 17%;   
+}
+
+/* Features */
+
+#feature-box {
+    position: relative;
+    background-color: #FFF;   
+}
+
+.feature-icons {
+    color: #EF8172;
+}
+
+i.feature-icons:hover {
+    color: #FF4C68;
+}
+
+#feature-box h3 {
+    font-size: 1.5rem;
+}
+
+#feature-box p {
+    font-size: 1.1rem;
+    width: 85%;
+}
+
+/* Testimonials */
+
+#testimonials h3{
+    font-size: 3rem;
+    font-weight: 500;
+    color: #FFF;
+    line-height: 1.5;
+}
+
+#carouselTestimonials img {
+    width: 10%;
+    border-radius: 100%;
+}
+
+#testimonials .logos {
+    width: 12%;
+}
+
+#testimonials .logos:nth-of-type(2) {
+    width: 10%;
+}
+
+#testimonials .logos:nth-of-type(3) {
+    width: 15%;
+}
+
+/* Pricing Section  */
+
+#pricing-section ul,li{
+    margin: 7%;
+}
+
+/* Footer Section  */
+#footer-section span:hover {
+    color: #FF4C68;
+}
+
+@media (max-width:768px) {
+    img.title-img {
+        width: 70%;
+        transform-origin: bottom left;
+        transform: rotate(0deg);
+        /* position: static;
+        margin: auto 0px; */
+    }
+
+}
